@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "UserService\UserService.csproj", "{99DA6498-A18E-42D8-8E43-936511C08122}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService", "UserService\UserService.csproj", "{99DA6498-A18E-42D8-8E43-936511C08122}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{00FD9B0B-B6B5-4CA5-B9D5-DF9D8A40533D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService", "ProductService\ProductService.csproj", "{00FD9B0B-B6B5-4CA5-B9D5-DF9D8A40533D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{CA5FBAAE-0614-49A4-B855-094BFE80ACBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService", "OrderService\OrderService.csproj", "{CA5FBAAE-0614-49A4-B855-094BFE80ACBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{6BEE12EA-CF15-467B-8745-5AEF7B76C742}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{6BEE12EA-CF15-467B-8745-5AEF7B76C742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthenticationManager", "JwtAuthenticationManager\JwtAuthenticationManager.csproj", "{EE1B2990-3559-46B1-904E-56FC1A1935D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6BEE12EA-CF15-467B-8745-5AEF7B76C742}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BEE12EA-CF15-467B-8745-5AEF7B76C742}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BEE12EA-CF15-467B-8745-5AEF7B76C742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE1B2990-3559-46B1-904E-56FC1A1935D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1B2990-3559-46B1-904E-56FC1A1935D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1B2990-3559-46B1-904E-56FC1A1935D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1B2990-3559-46B1-904E-56FC1A1935D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
